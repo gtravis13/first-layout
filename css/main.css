@@ -2,6 +2,7 @@
 /*** web fonts ***/
 @import url(https://fonts.googleapis.com/css?family=Lato:400);
 
+
 /*** basic reset ***/
 
 body, h1, h2, ul, ol {
@@ -16,13 +17,18 @@ body {
   width: 80%;
 }
 
-h1 {
-  font-size: 2em;
+header h1 {
+  font-family: font-size: 2em;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+}
+
+nav {
+  margin-top: .7em;
+
 }
 
 nav ul {
@@ -34,4 +40,9 @@ li {
   list-style-type: none;
 }
 nav a {text-decoration: none;
+  background: tomato;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  
 }
